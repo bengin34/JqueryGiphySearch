@@ -12,7 +12,7 @@ $(function() {
       "http://api.giphy.com/v1/gifs/search",
       {
         q: searchTerm,
-        api_key: "g6EjTu1wXbkTIppR9OxjrVQMQSxow9hg"
+        api_key: ""
       }
     ).then(function(res) {
         console.log(res.data)
